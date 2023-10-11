@@ -1,0 +1,9 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('nerd-face-emoji-clever-emoticon-with-glasses-geek-student_3482-1193.avif');
+  background-size: cover;
+  background-position: center;
+}

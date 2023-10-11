@@ -1,0 +1,128 @@
+*{
+  font-family: Arial;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('images/Anti-Furry_Flag.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.question-furry {
+  background-image: url('images/Anti-Furry_Flag.png');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  width: 420px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  left: 100px;
+  right: 100px;
+}
+
+.question-furry button {
+  background-color: rgb(157, 1, 1);
+  width: 100%;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.question-furry button:hover{
+  cursor: pointer;
+  background-color: rgb(87, 0, 0);
+}
+
+.question-furry button:active {
+  cursor: default;
+  background-color: rgb(157, 1, 1);
+}
+
+.popup {
+  width: 400px;
+  background: rgb(123, 123, 123);
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 30px 30px 30px;
+  color: #333;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.question-furry h1 {
+  color: white;
+}
+
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight:800;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  border-radius: 8px;
+  background-color:chocolate;
+  font-weight: 900;
+
+}
+
+.popup2 {
+  width: 400px;
+  background: rgb(123, 123, 123);
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 30px 30px 30px;
+  color: #333;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup2 {
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup2 img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup2 h2 {
+  font-size: 38px;
+  font-weight:800;
+  margin: 30px 0 10px;
+}

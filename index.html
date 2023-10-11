@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anti furry</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="question-furry">
+    <h1 style="
+        font-size: 36px;
+        text-align: center;
+      ">Are you A furry</h1>
+    <a href="in.html"><button>Yes"Cringe"</button></a>
+    <button type="submit" onclick="openPopup()">No "Giga Nega Chad"</button>
+    <div class="popup" id="popup">
+      <img src="images/artworks-ywcx1pUzUGGvjwmH-BUNWRA-t500x500.jpg">
+      <h2 style="color: white;">Chad</h2>
+      <button type="button" onclick="closePopup()">Yes Sir</button>
+
+    </div>
+
+
+   
+   </div>
+  </div>
+  <script>
+    let popup = document.getElementById("popup");
+    function openPopup() {
+      popup.classList.add("open-popup")
+    }
+    function closePopup() {
+      popup.classList.remove("open-popup")
+    }
+  </script>
+</body>
+</html>
